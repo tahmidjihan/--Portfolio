@@ -1,14 +1,14 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import Hero from './components/Hero';
 function App() {
   return (
-    <>
+    <div className='overflow-x-clip'>
       <Navbar />
-      <h1>HEllo its my portfolio</h1>
-      <button className='btn btn-primary'>Click</button>
+      <Hero />
       <Footer />
-    </>
+    </div>
   );
 }
 

@@ -1,9 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 @import 'tailwindcss';
 @plugin "daisyui";
+:root {
+  --primary: #ab1748;
+  --secondary: #22143b;
+}
 .bebas {
   font-family: 'Bebas Neue';
 }
 .roboto {
   font-family: 'Roboto Condensed';
+}
+.primary-btn {
+  background: linear-gradient(to right, var(--primary), var(--secondary));
+  border: none;
+  border-radius: 50px;
+  padding: 10px 30px;
+  color: white;
+}
+.primary-text {
+  color: var(--primary);
+}
+.secondary-text {
+  color: var(--secondary);
 }
