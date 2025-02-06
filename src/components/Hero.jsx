@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaXTwitter, FaFacebook, FaGithub } from 'react-icons/fa6';
+import Social from './Social';
 
 function Hero() {
   return (
@@ -21,11 +21,7 @@ function Hero() {
             I build sleek, high-performance web solutions that turn ideas into
             reality. Let’s create something amazing together!
           </p>
-          <div className='flex gap-5 text-4xl py-5 primary-text'>
-            <FaFacebook />
-            <FaXTwitter />
-            <FaGithub />
-          </div>
+          <Social className='primary-text' />
           <button className='btn primary-btn btn-lg'>Download Resume</button>
         </div>
       </div>
