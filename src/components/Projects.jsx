@@ -33,19 +33,19 @@ function Projects() {
             {projects.map((project) => (
               <div
                 key={project.project_name}
-                className='card relative bg-base-100 shadow-sm '>
+                className='card relative card-side bg-base-100 shadow-sm '>
                 <figure>
                   <img
                     src={project.project_image}
-                    className='min-w-[300px] sm:min-w-sm rounded-2xl'
+                    className='w-sm rounded-2xl'
                     alt='Movie'
                   />
                 </figure>
                 <div className='card-body'>
                   <h2 className='card-title'>{project.project_name}</h2>
-                  <p>{project.detailed_project_page.brief_description}</p>
+                  <p>{project.brief_description}</p>
                   <div className='card-actions justify-end'>
-                    <button className='btn btn-primary'>View More</button>
+                    <button className='btn btn-primary'>Watch</button>
                   </div>
                 </div>
               </div>
