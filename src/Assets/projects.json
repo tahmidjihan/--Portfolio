@@ -1,0 +1,115 @@
+[
+  {
+    "project_name": "FundHive - Crowdfunding Platform",
+    "project_image": "https://raw.githubusercontent.com/tahmidjihan/fundHive/refs/heads/main/fundhive.jpg",
+    "view_more_button": "View More / Details",
+    "detailed_project_page": {
+      "main_technology_stack": {
+        "frontend": "React.js",
+        "backend": "Node.js, Express.js",
+        "database": "MongoDB",
+        "authentication": "Firebase"
+      },
+      "brief_description": "FundHive is a dynamic crowdfunding platform that empowers users to raise funds for personal, creative, and startup projects. Whether it's medical expenses, launching a new product, or supporting an art initiative, FundHive connects you with a generous community of backers ready to support your vision.",
+      "live_project_link": "https://fund-hive.web.app/",
+      "github_repository_link": "https://github.com/tahmidjihan/fundHive",
+      "challenges_faced": [
+        "Integrating Firebase authentication and managing user data securely.",
+        "Ensuring smooth CRUD operations with MongoDB for managing campaigns and backers.",
+        "Handling large numbers of concurrent users and transactions.",
+        "Implementing a payment system for fund transfers to campaign creators was challenging due to the lack of a payment gateway."
+      ],
+      "potential_improvements_and_future_plans": [
+        "Integrate a payment gateway to facilitate donations directly on the platform.",
+        "Improve UI/UX for better mobile responsiveness.",
+        "Implement social media sharing for campaigns.",
+        "Add recurring donation options for backers.",
+        "Expand the platform to support global crowdfunding projects."
+      ]
+    }
+  },
+  {
+    "project_name": "MedalTrack – Marathon Management Platform",
+    "project_image": "https://raw.githubusercontent.com/tahmidjihan/medalTrack/refs/heads/main/medal-track.jpg",
+    "view_more_button": "View More / Details",
+    "detailed_project_page": {
+      "main_technology_stack": {
+        "frontend": ["React", "Tailwind CSS", "DaisyUI", "Flowbite"],
+        "backend": "Firebase",
+        "routing": "React Router",
+        "data_fetching": "Axios"
+      },
+      "brief_description": "MedalTrack is a marathon management platform for marathon enthusiasts to discover, manage, and track running events. It provides a dynamic list of marathons, custom dashboards, and detailed event information.",
+      "live_project_link": "https://medal-track.web.app/",
+      "github_repository_link": "https://github.com/tahmidjihan/medalTrack",
+      "challenges_faced": [
+        "Integrating real-time data fetching using Axios for dynamic marathon listings.",
+        "Managing user authentication and ensuring secure access to user data with Firebase.",
+        "Designing responsive UI that adapts to different screen sizes while maintaining a rich user experience."
+      ],
+      "potential_improvements_and_future_plans": [
+        "Allow users to register for marathons directly through the platform.",
+        "Add real-time race tracking for participants.",
+        "Integrate a payment gateway for event registration.",
+        "Expand the platform to support additional sports events like triathlons."
+      ]
+    }
+  },
+  {
+    "project_name": "Warmth Bridge",
+    "project_image": "https://raw.githubusercontent.com/tahmidjihan/warmth-bridge/refs/heads/main/warmth.jpg",
+    "view_more_button": "View More / Details",
+    "detailed_project_page": {
+      "main_technology_stack": {
+        "frontend": ["React.js", "Tailwind CSS", "Daisy UI", "Flowbite"],
+        "backend_and_authentication": "Firebase",
+        "routing": "React Router",
+        "ui_enhancements": "AOS, React Icons",
+        "notifications": "React Toastify"
+      },
+      "brief_description": "Warmth Bridge is a donation platform connecting donors with communities in need. Users can donate unused clothing and select specific campaigns for their contributions, facilitating collection and distribution.",
+      "live_project_link": "https://warmth-bridge.web.app/",
+      "github_repository_link": "https://github.com/tahmidjihan/warmth-bridge",
+      "challenges_faced": [
+        "Ensuring secure user authentication and private routes for authorized users.",
+        "Managing donations and campaign data synchronization in real-time.",
+        "Optimizing UI animations with AOS for a smoother user experience."
+      ],
+      "potential_improvements_and_future_plans": [
+        "Expand to support monetary donations in addition to clothing.",
+        "Add a volunteer management system for users to track their contribution hours.",
+        "Integrate with social media to help spread donation campaigns."
+      ]
+    }
+  },
+  {
+    "project_name": "eduManage Frontend",
+    "project_image": "https://raw.githubusercontent.com/tahmidjihan/eduManage/refs/heads/main/edumanage.jpg",
+    "view_more_button": "View More / Details",
+    "detailed_project_page": {
+      "main_technology_stack": {
+        "frontend": ["React", "React Router", "MUI", "Flowbite"],
+        "state_management_and_forms": ["React Query", "React Hook Form"],
+        "backend_and_authentication": "Firebase",
+        "styling": ["Emotion", "Styled Components", "Keen Slider"],
+        "utilities": ["Axios", "SweetAlert2"]
+      },
+      "brief_description": "eduManage is a full-stack educational platform for students and teachers. Students can sign up, apply to become teachers, manage courses, and submit assignments. Teachers can create assignments, review submissions, and manage students with dedicated dashboards.",
+      "live_project_link": "https://edumanage-c8e12.web.app",
+      "github_repository_link": "https://github.com/tahmidjihan/eduManage-frontend",
+      "challenges_faced": [
+        "Implementing role-based dashboards for students, teachers, and admins.",
+        "Handling real-time course and assignment management while keeping data synchronization across users.",
+        "Ensuring smooth interaction between React Hook Form and Firebase for user inputs and assignments.",
+        "Role management: Managing permissions and views for different roles (student, teacher, admin) was a complex challenge, ensuring that each role had the appropriate access and functionality."
+      ],
+      "potential_improvements_and_future_plans": [
+        "Adding chat functionality between students and teachers for real-time communication.",
+        "Integrating a notification system for new assignments, updates, or course announcements.",
+        "Enhancing the user experience with dark mode.",
+        "Adding a feature for peer reviews for assignments submitted by students.",
+        "Expanding the platform to support video lectures and integrated resources."
+      ]
+    }
+  }
+]

@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Skill from './components/Skill';
 import Experience from './components/Experience';
+import Projects from './components/Projects';
 function App() {
   return (
     <div className='overflow-x-clip'>
@@ -13,6 +14,7 @@ function App() {
       <About />
       <Skill />
       <Experience />
+      <Projects />
       <Footer />
     </div>
   );

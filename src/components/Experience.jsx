@@ -2,10 +2,12 @@ import React from 'react';
 
 function Experience() {
   return (
-    <div className='lg:hero bg-cover bg-white min-h-[80vh] py-16' id='about'>
+    <div
+      className='lg:hero bg-cover bg-white min-h-[80vh] py-16'
+      id='experience'>
       <div className='hero-content flex-col lg:flex-row md:gap-[100px] mx-auto'>
         <ul
-          className={`list bg-[url('./Assets/experience-bg.png')]  rounded-box shadow-md text-start bg-cover`}>
+          className={`list bg-[url('./Assets/experience-bg.png')] rounded-box shadow-md text-start bg-cover`}>
           <li className='list-row'>
             <div>
               <div className='text-4xl bebas'>Edricenti </div>
@@ -50,6 +52,7 @@ function Experience() {
             refined my skills and deepened my understanding of real-world
             solutions.
           </div>
+          <button className='btn primary-btn btn-lg'>Hire Me</button>
         </div>
       </div>
     </div>
