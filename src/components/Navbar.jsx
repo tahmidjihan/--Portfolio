@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Link } from 'react-router';
 
 function Navbar() {
   useEffect(() => {
@@ -25,6 +26,15 @@ function Navbar() {
         </li>
         <li>
           <a href='#about'>About</a>
+        </li>
+        <li>
+          <a href='#skills'>Skills</a>
+        </li>
+        <li>
+          <a href='#experience'>Experience</a>
+        </li>
+        <li>
+          <a href='#projects'>Projects</a>
         </li>
       </>
     );

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router';
 
 function Projects() {
   const [projects, setProjects] = useState([]);
@@ -30,10 +31,8 @@ function Projects() {
         <div className=' relative container flex items-center justify-center'>
           <div className='grid grid-cols-1 md:grid-cols-2 gap-4 justify-center mx-auto'>
             {/* {projects.length} */}
-            {projects.map((project) => (
-              <div
-                key={project.project_name}
-                className='card relative bg-base-100 shadow-sm '>
+            {projects.map((project, index) => (
+              <div key={index} className='card relative bg-base-100 shadow-sm '>
                 <figure>
                   <img
                     src={project.project_image}
@@ -45,7 +44,9 @@ function Projects() {
                   <h2 className='card-title'>{project.project_name}</h2>
                   <p>{project.detailed_project_page.brief_description}</p>
                   <div className='card-actions justify-end'>
-                    <button className='btn btn-primary'>View More</button>
+                    <Link to={`/project/${index}`} className='btn btn-primary'>
+                      View More
+                    </Link>
                   </div>
                 </div>
               </div>
