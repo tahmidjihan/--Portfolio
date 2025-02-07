@@ -3,8 +3,8 @@ import React from 'react';
 function Skill() {
   return (
     <div
-      className={`lg:hero bg-cover bg-[url('./Assets/skills-bg.png')] min-h-[80vh] py-16`}
-      id='about'>
+      className="lg:hero bg-cover bg-[url('./Assets/skills-bg.png')] min-h-[80vh] py-16"
+      id='skills'>
       <div className='hero-content flex-col lg:flex-row-reverse md:gap-[100px] mx-auto'>
         <img
           src='./Assets/skills.png'

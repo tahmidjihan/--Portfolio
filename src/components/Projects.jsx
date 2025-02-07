@@ -14,7 +14,7 @@ function Projects() {
   }, []);
   return (
     <div
-      className={` bg-[url('./Assets/projects-bg.png')] bg-cover min-h-screen py-16`}
+      className=" bg-[url('./Assets/projects-bg.png')] bg-cover min-h-screen py-16"
       id='projects'>
       <div className='hero-content container overflow-hidden mx-auto flex-col md:gap-[100px]'>
         <div className='max-w-lg text-center'>
@@ -33,19 +33,19 @@ function Projects() {
             {projects.map((project) => (
               <div
                 key={project.project_name}
-                className='card relative card-side bg-base-100 shadow-sm '>
+                className='card relative bg-base-100 shadow-sm '>
                 <figure>
                   <img
                     src={project.project_image}
-                    className='w-sm rounded-2xl'
+                    className='min-w-[300px] sm:min-w-sm rounded-2xl'
                     alt='Movie'
                   />
                 </figure>
                 <div className='card-body'>
                   <h2 className='card-title'>{project.project_name}</h2>
-                  <p>{project.brief_description}</p>
+                  <p>{project.detailed_project_page.brief_description}</p>
                   <div className='card-actions justify-end'>
-                    <button className='btn btn-primary'>Watch</button>
+                    <button className='btn btn-primary'>View More</button>
                   </div>
                 </div>
               </div>
