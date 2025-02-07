@@ -3,7 +3,7 @@ import Social from './Social';
 
 function Hero() {
   return (
-    <div className="hero bg-[url('https://i.ibb.co.com/WvYZfSTY/bg.png')] min-h-screen">
+    <div className="hero bg-[url('/Assets/bg.png')] min-h-screen">
       <div className='hero-content flex-col lg:flex-row md:gap-[100px]'>
         <img
           src='./Assets/tahmid.png'

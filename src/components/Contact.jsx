@@ -3,8 +3,8 @@ import { FaMapMarkerAlt, FaPhoneAlt, FaClock } from 'react-icons/fa';
 const Contact = () => {
   return (
     <div className='max-w-screen-lg mx-auto p-5'>
-      <div className='grid grid-cols-1 md:grid-cols-12 border'>
-        <div className='bg-[#ab1748] md:col-span-4 p-10 text-white'>
+      <div className='grid grid-cols-1 md:grid-cols-12 border rounded-2xl'>
+        <div className='bg-[#ab1748] md:col-span-4 p-10 rounded-2xl text-white'>
           <p className='mt-4 text-sm leading-7 font-regular uppercase'>
             Contact
           </p>
@@ -32,10 +32,7 @@ const Contact = () => {
             <span className='text-sm'>24/7</span>
           </div>
         </div>
-        <form
-          action='https://fabform.io/f/{form-id}'
-          method='post'
-          className='md:col-span-8 p-10'>
+        <form method='post' className='md:col-span-8 p-10'>
           <div className='flex flex-wrap -mx-3 mb-6'>
             <div className='w-full md:w-1/2 px-3 mb-6 md:mb-0'>
               <label
@@ -48,6 +45,7 @@ const Contact = () => {
                 id='grid-first-name'
                 type='text'
                 placeholder='Jane'
+                required
               />
             </div>
             <div className='w-full md:w-1/2 px-3'>
@@ -61,6 +59,7 @@ const Contact = () => {
                 id='grid-last-name'
                 type='text'
                 placeholder='Doe'
+                required
               />
             </div>
           </div>
@@ -76,9 +75,11 @@ const Contact = () => {
                 id='grid-email'
                 type='email'
                 placeholder='********@*****.**'
+                required
               />
             </div>
           </div>
+          <button className='btn primary-btn btn-lg'>Submit</button>
 
           {/* You can continue the form elements here */}
         </form>
