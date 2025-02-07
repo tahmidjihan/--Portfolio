@@ -1,4 +1,5 @@
 import { FaMapMarkerAlt, FaPhoneAlt, FaClock } from 'react-icons/fa';
+import { FaEnvelope } from 'react-icons/fa6';
 
 const Contact = () => {
   return (
@@ -26,6 +27,10 @@ const Contact = () => {
           <div className='flex items-center mt-5'>
             <FaPhoneAlt className='h-6 mr-2 secondary-text' />
             <span className='text-sm'>+880 162 690 8422</span>
+          </div>
+          <div className='flex items-center mt-5'>
+            <FaEnvelope className='h-6 mr-2 secondary-text' />
+            <span className='text-sm'>tahmid.jihan@yahoo.com</span>
           </div>
           <div className='flex items-center mt-5'>
             <FaClock className='h-6 mr-2 secondary-text' />
