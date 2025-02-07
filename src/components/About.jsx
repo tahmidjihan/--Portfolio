@@ -4,7 +4,7 @@ import Social from './Social';
 function About() {
   return (
     <div
-      className="hero bg-[url('./Assets/about.png')] min-h-[80vh] py-16"
+      className="hero min-h-[80vh] py-16 bg-[url('/Assets/about.png')] bg-cover bg-center"
       id='about'>
       <div className='hero-content flex-col lg:flex-row md:gap-[100px] mx-auto'>
         <img
