@@ -4,7 +4,7 @@ import Footer from './components/Footer';
 import { FaGithub } from 'react-icons/fa6';
 
 function Project() {
-  const { id } = useParams();
+  const { id = 0 } = useParams();
   const [projects, setProjects] = useState([]);
   const [project, setProject] = useState({});
   useEffect(() => {
@@ -53,11 +53,8 @@ function Project() {
                 <li>
                   Frontend:{' '}
                   <span className='font-bold gap-1'>
-                    {project?.detailed_project_page?.main_technology_stack?.frontend.map(
-                      (item, index) => (
-                        <span key={index}>{item}, </span>
-                      )
-                    )}
+                    {project?.detailed_project_page?.main_technology_stack
+                      ?.frontend || 'N/A'}
                   </span>
                 </li>
                 <li>
