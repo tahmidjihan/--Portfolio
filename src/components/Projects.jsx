@@ -14,7 +14,7 @@ function Projects() {
   }, []);
   return (
     <div
-      className={` bg-[url('./Assets/projects-bg.png')] bg-cover min-h-screen py-16`}
+      className=" bg-[url('./Assets/projects-bg.png')] bg-cover min-h-screen py-16"
       id='projects'>
       <div className='hero-content container overflow-hidden mx-auto flex-col md:gap-[100px]'>
         <div className='max-w-lg text-center'>
