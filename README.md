@@ -79,9 +79,3 @@ npm run dev
 ### 📩 Contact Me  
 
 If you have any feedback or just want to connect, feel free to reach out!  
-```
-
-### 🔥 What’s added?  
-✔️ **Clone & run instructions**  
-✔️ **Forking and contributing steps**  
-✔️ **Neat, professional structure**  
