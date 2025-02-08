@@ -1,5 +1,6 @@
 import React from 'react';
 import Social from './Social';
+import { Link } from 'react-router';
 
 function Footer() {
   return (
@@ -18,7 +19,7 @@ function Footer() {
           </svg>
           <p>
             Copyright © {new Date().getFullYear()} - All right reserved,{' '}
-            <a href='#'>Tahmid</a>
+            <Link to='/'>Tahmid Jihan</Link>
           </p>
         </aside>
         <nav className='grid-flow-col gap-4 md:place-self-center md:justify-self-end'>
