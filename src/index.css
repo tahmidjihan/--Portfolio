@@ -24,3 +24,12 @@
 .secondary-text {
   color: var(--secondary);
 }
+.primary-border {
+  border-color: var(--primary);
+}
+.primary-outline {
+  outline: var(--primary) solid 1px;
+}
+.primary-bg {
+  background: var(--primary);
+}

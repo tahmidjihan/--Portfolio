@@ -1,4 +1,4 @@
-import React, { use, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router';
 import Footer from './components/Footer';
 import { FaGithub } from 'react-icons/fa6';
@@ -21,6 +21,22 @@ function Project() {
     const project = projects[id];
     setProject(project);
   }, [projects, id]);
+  const [Loading, setLoading] = useState(true);
+  useEffect(() => {
+    if (projects != []) {
+      setInterval(() => setLoading(!Loading), 1000);
+    }
+  }, []);
+  if (Loading) {
+    return (
+      <div className='flex space-x-2 justify-center items-center bg-gray-300 h-screen'>
+        <span className='sr-only'>Loading...</span>
+        <div className='h-8 w-8 primary-bg rounded-full animate-bounce [animation-delay:-0.3s]' />
+        <div className='h-8 w-8 primary-bg rounded-full animate-bounce [animation-delay:-0.15s]' />
+        <div className='h-8 w-8 primary-bg rounded-full animate-bounce' />
+      </div>
+    );
+  }
   return (
     <>
       <div className='navbar bg-base-100 shadow-sm sm:px-10'>
