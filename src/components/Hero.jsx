@@ -22,7 +22,13 @@ function Hero() {
             reality. Let’s create something amazing together!
           </p>
           <Social className='primary-text' />
-          <button className='btn primary-btn btn-lg'>Download Resume</button>
+          <a
+            href='https://drive.google.com/uc?export=download&id=1y32iJ53z6yQUbgzm4PEDxHh78S6KeqXC
+'
+            download
+            className='btn primary-btn btn-lg'>
+            Download Resume
+          </a>
         </div>
       </div>
     </div>
